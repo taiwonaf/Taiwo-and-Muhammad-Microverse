@@ -9,24 +9,24 @@
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <header>
-      <nav>
+    <header id="header">
+      <nav id="nav-bar">
         <div class="brand">
-          <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
+          <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="">
         </div>
         <div class="navitems">
           <ul>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">How it works</a></li>
-            <li><a href="#">Pricing</a></li>
+            <li><a id="nav-link" href="#features">Features</a></li>
+            <li><a href="#videos">How it works</a></li>
+            <li><a href="#pricings">Pricing</a></li>
           </ul>
         </div>
       </nav>
       <div class="hero">
         <h1>Handcrafted, home-made masterpieces</h1>
-        <form>
-          <input type="email" id="email" placeholder="Enter your email address">
-          <button type="submit" class="btn">Get Started</button>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input id="email" type="email" id="email" placeholder="Enter your email address">
+          <button id="submit" type="submit" class="btn">Get Started</button>
         </form>
       </div>
     </header>
@@ -60,8 +60,8 @@
           </div>
         </div>
       </div>
-      <div class="video-section">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="video-section" id="videos">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       <div class="pricings" id="pricings">
         <div class="pricing">
